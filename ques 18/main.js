@@ -1,0 +1,11 @@
+"use strict";
+let places = ["islamabad", "lahore", "karachi", "multan", "quetta"];
+console.log("original order:", places);
+console.log("alphabatical order:", [...places].sort());
+console.log("original order:", places);
+console.log(" rerverse alphabatical order:", [...places].sort().reverse());
+console.log("original order:", places);
+console.log(" rerverse order:", [...places].reverse());
+console.log("original order:", [...places].reverse().reverse());
+console.log("alphabatical order:", places.sort());
+console.log(" rerverse alphabatical order:", places.sort().reverse());
